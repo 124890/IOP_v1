@@ -1,0 +1,124 @@
+
+\documentclass[
+	%print, % Uncomment to convert colors to CMYK for printing purposes
+	%a1papersize, % Uncomment to use an A1 paper size instead of the default A0 paper size
+]{ImperialPoster}
+
+
+\postertitle{Optimising visible light transmittance of Starch-Gelatine films through the addition of papaya and cantaloupe puree} % The poster title, can be split across multiple lines manually with \\
+
+% Contributor/author names, can be split across multiple lines manually with \\
+% Add affiliations using the \affiliation{} command
+\posterauthors{Douglas Penning\affiliation{1},\\ Alvin Zhu\affiliation{1},\\ Gabriel Yang\affiliation{1},\\ Manjula Silva\affiliation{1}}
+
+% Command to output coauthor logos to the right of the Imperial logo in the header of the poster
+% If no coauthor logos are required, remove or comment out this command
+\coauthorlogos{
+	\coauthorlogo[4cm]{Grey_16-9.pdf} % Use the optional parameter to specify a height for the logo
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\newpage
+
+\titlesection % Output the title section, automatically populated using the information in the POSTER INFORMATION block above
+
+\begin{multicols}{3} % Start the three-column layout
+	
+\subsection{Motivation}
+
+    Environmental concerns over the widespread use of petroleum-based packaging have driven interest in biodegradable starch-gelatine films - though poor optical properties remain a limitation. This study investigated the effect of papaya and cantaloupe purée additives on film transparency.
+
+	
+	\begin{quote}
+		"23 \% of all Polyethylene film use is for food packaging applications" \textsuperscript{[1]}
+	\end{quote}
+  
+
+    Non-biodegradable plastics pose serious environmental challenges, prompting development of biodegradable alternatives. These materials are renewable, decomposable, and suitable for food packaging applications.
+    
+    Film properties depend on starch gelatinisation, gelatine reinforcement, and plasticisation with glycerol with the addition of fruit purées—especially papaya—improving transparency through interactions with film components.
+
+
+	\subsection{Materials \& Methodology}	
+
+    Fruit purées were prepared by blending peeled Brazilian cantaloupe melon and papaya\textsuperscript{1}. Corn starch\textsuperscript{2} was dissolved in de-ionised water at 50 °C and stirred for 30 min using a Stuart™ US152D. Gelatine\textsuperscript{2}  and fruit purée were then added, followed by another 30 min stirring under varying temperatures. Glycerol\textsuperscript{2} was added and stirred for a final 30 min.
+       
+    \smalltext{\textsuperscript{1} Waitrose \& Partners, \textsuperscript{2} Sigma-Aldrich}
+
+        \begin{table}[H] % [H] forces the table to be output where it is defined in the code (it suppresses floating)
+		\caption{Component percentages used. \textbf{N.B:} CELL sample contatins 10 wt. \% hydroxyproyl cellulose}
+		\begin{tabular}{L{0.36\linewidth} C{0.36\linewidth}}
+			\toprule
+			Component & Quantity \\
+			\midrule
+		      Corn starch & 2 wt. \%\\
+			Gelatine &   6 wt. \%\\
+		      Papaya & 9 - 18 wt. \%\\
+			Cantaloupe & 9 - 18 wt. \%\\
+            Cellulose & 0, 10 wt.\% \\
+            Deionised Water & q.s \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+    20 g of solution was cast into 150 mm Ambersil™ No-Sil coated plastic petri dishes.  All samples were dried at room temperature (20 C) for 7 days.
+    \columnbreak
+	
+	\section{Results}
+	
+	\textcolor{ICLBlue}{Visible light transmittance} ($\lambda$ = 500 nm) was found to increase with concentration of papaya. However, at concentrations below 13 wt.\% papaya, the films had reduced transmission. 
+    
+	\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+		\includegraphics[width=\linewidth]{Picture1.png} % Figure image
+		\caption{A) Normalised average visible light transmittance taken at $\lambda$ = 500 nm via ASTM D1746-15 standard, for all samples from Stage 1 \& 2. Stage 1 samples are indicated by non-hatched bars. Error bars show standard deviation between repeats. B \& C) Normalised transmittance spectra taken for 9, 12, 15 (\& 18) wt. \% papaya and cantaloupe samples..}
+	\end{figure}	
+    	
+    The presence of insoluble fibre in the fruit pur\'ee to the samples may result in differing texture and thus increased light scattering. However, at higher papaya loadings, lower particulate count was observed (Figure 2A), potentially due to reduced hydrogen bonding between starch-gelatine. Thus, to improve transmittance at $\lambda$ = 500 nm, a critical concentration of 13 wt.\% is required.
+
+    \textcolor{ICLBlue}{Water Contact Angle} rose with low papaya content but decreased at higher puree levels, keeping films hydrophilic ($\theta$ < 95°). 
+
+    \begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+    \includegraphics[width=\linewidth]{Picture2.png} % Figure image
+	\end{figure}
+
+    Sugars promote hydrogen bonding and reduce crystallinity, increasing wettability. Rougher air-facing surfaces enhanced hydrophilicity via the Wenzel effect \textsuperscript{[2]}, while release spray residues had minimal impact. Higher processing temperatures increased hydrophobicity, except where uneven drying caused anomalies.
+
+    \columnbreak
+
+    \textcolor{ICLBlue}{Mechanical} properties were found to decrease significantly with papaya loadings. Cantaloupe addition was however found to have little effect on Youngs modulus (\textit{E}), elongation at break (\textit{EAB}), and tensile strength (\textit{TS}) as shown.
+    
+    Increased processing temperature had negligible effect on \textit{TS} and \textit{E}, but did have significant impact on \textit{EAB}.
+      
+    Control samples were largely unaffected by temperature, suggesting that the observed EAB reduction stems specifically from papaya-related structural changes or network formation. Due to anomalous results for 12 wt. \% samples at 60 and 90 °C, no definitive conclusions can be drawn regarding tensile strength (TS) or Young’s modulus (E).    
+
+    \begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+    \includegraphics[width=\linewidth]{Picture3.png} % Figure image
+    \caption{Water contact angle (°) measured via sessile drop for all samples. Error bars represent standard deviation between repeats. Hatched bars show the “smooth” mould facing side of the film. A) Shows papaya and cantaloupe samples produced at 75°C processing temperature.}
+	\end{figure}
+	
+	
+    \section{Conclusion}
+	
+	\largepercent{xyz \%} increase in transmittance % Large bold percentage figure
+	  \begin{itemize}
+      \item Papaya ≥13 wt.\% improves transparency at 500 nm
+      \item Purees reduce TS and EAB; low cantaloupe increases $E$ by 22 ± 57 \%.
+      \item Higher processing temperatures lower EAB by 35.6 ± 12.7 \%.
+      \item Papaya increases hydrophobicity at low wt.\%; cantaloupe increases hydrophilicity.
+      \item \textcolor{ICLBlue}{ Future work: refine drying protocols and explore hybrid puree blends.}
+    \end{itemize}
+  
+	
+	
+	\subsection{Affiliations}
+	
+	% Affiliation institutions, the first parameter is the affiliation number (matching the author list) and the second is the institution
+	\affiliationentry{1}{Department of Materials, Imperial College London}\\
+
+\end{multicols}
+\smalltext{\textsuperscript{[1]}“Database - Eurostat” https://ec.europa.eu/eurostat/data/database}
+
+\end{document}
